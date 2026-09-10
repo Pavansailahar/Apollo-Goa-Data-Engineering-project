@@ -1,0 +1,20 @@
+# Large / derived data files — excluded from GitHub (100MB limit)
+.Parquet files/
+Databricks.zip
+*.pbix
+
+# The web dashboard already lives in its own GitHub repo
+# (github.com/Pavansailahar/Apollo-Sales-Dashboard) with its own git history —
+# tracked separately, not nested inside this repo.
+apollo sales dashboard deploy/
+
+# Jupyter / Python housekeeping
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
