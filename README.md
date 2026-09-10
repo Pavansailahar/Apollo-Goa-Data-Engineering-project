@@ -7,7 +7,7 @@ business-question SQL and per-store sales forecasting, explored/modeled in a
 Python notebook (EDA, anomaly detection, store-SKU segmentation), and surfaced
 through both a Power BI report and a standalone web dashboard.
 
-**Live dashboard:** https://claude.ai/code/artifact/5e9c15d2-8e15-4cc9-9042-cba050d5abfd
+**Live dashboard:** https://apollo-sales-dashboard-tyaj.vercel.app/
 **Dashboard repo:** https://github.com/Pavansailahar/Apollo-Sales-Dashboard
 
 > **Naming note:** the raw consolidated table is `dbo.final_sales` in SQL
