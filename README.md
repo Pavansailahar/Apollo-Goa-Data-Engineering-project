@@ -141,6 +141,8 @@ tables:
 | [`Databricks Forecasting.ipynb`](Databricks/Databricks%20Forecasting.ipynb) | Runs **Prophet** per store (in parallel, via `applyInPandas`) over `gold_vw_sales_summary_monthly` to predict next month's net sales with confidence bounds, compares the forecast to the latest actual month, saves `pharmacy_sales.gold.forecast_store_next_month`, and charts predicted % change per store |
 | [`Databricks Outpus/`](Databricks/Databricks%20Outpus) | Screenshots of the Databricks Jobs runs (list, timeline, run graphs) that executed this pipeline |
 
+[`Dashboard Output`](https://dbc-fe03c468-f764.cloud.databricks.com/dashboardsv3/01f1ad19a8751c41ace0a699cd2c1b65/published?o=7474656345093016)
+
 ## 4. Python EDA & segmentation (`python files and notebooks/`)
 
 `Goa_data_project.ipynb` is a separate, self-contained path: it connects
